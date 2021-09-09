@@ -1,8 +1,15 @@
-/* Fonts */
+/* Font */
 $barlow: 'Barlow', sans-serif;
-$fraunces: 'Fraunces', serif;
-/* Colors */
+    /* Font weight */
+$semi-bol: 600;
 
+/* Font */
+$fraunces: 'Fraunces', serif;
+    /* Font weights */
+$bold: 700;
+$black: 900;
+
+/* Colors */
 // Primary
 $Soft-red: hsl(7, 99%, 70%);
 $Yellow: hsl(51, 100%, 49%);

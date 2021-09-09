@@ -1,1 +1,8 @@
- 
+@mixin fraunces ($size){
+    font-family: $fraunces;
+    font-weight: $size;
+}
+@mixin barlow {
+    font-family: $barlow;
+    font-weight: $semi-bol;
+}

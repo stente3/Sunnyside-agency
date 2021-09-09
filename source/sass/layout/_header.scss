@@ -1,0 +1,95 @@
+.hero{
+    background-image: url(/public/assets/img/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 4vh;
+    .logo{
+        height: max-content;
+        width: 14rem;
+    }
+    h1{
+        text-align: center;
+        margin-top: 10vh;
+        color: $White;
+        @include fraunces($black);
+        text-transform: uppercase;
+        span{
+            display: block;
+        }
+    }
+}
+.container__links{
+    display: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    .hamburger{
+        cursor: pointer;
+    }
+}
+.container__arrow{
+    display: flex;
+    margin: 10vh auto;
+    .arrow{
+        margin: 0 auto;
+    }
+}
+@media (min-width: 400px) { 
+    .hero{
+        background-image: url(/public/assets/img/desktop/image-header.jpg);
+        h1 span{
+            display: inline;
+        }
+    }
+}
+@media (min-width: 1000px) { 
+    .hamburger{
+        display: none;
+    }
+    .container__links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        font-size: 2.2rem;
+        @include barlow;
+        a{
+            color: $White;
+            text-decoration: none;
+        }
+    }
+    .container__links a:nth-child(4){
+        color: $Very-dark-desaturated-blue;
+        background-color: $White;
+        padding: 1.5rem 3rem;
+        border-radius: 3rem;
+        @include fraunces($bold);
+        text-transform: uppercase;
+        font-size: 1.9rem;
+    }
+    .container__links a:nth-child(4):hover{
+        color:$White;
+        background-color: #ffffff2a;
+    }
+}
+@media (min-width: $desktop) { 
+    .hero{
+        height: 100vh;
+        h1{
+            margin: 11vh;
+            font-size: 3.5rem;
+        }
+        .logo{
+            width: 18rem;
+        }
+    }
+    .arrow{
+        width: 4.7rem;
+    }
+}
