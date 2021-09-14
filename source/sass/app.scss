@@ -1,9 +1,12 @@
-/* Base*/
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+/* Base*/
+// Normalize to keep the code similar in all browsers
 @import "./base/normalize";
 @import "./base/variables";
 @import "./base/global";
 @import "./base/mixins";
 /* Layout */
 @import "./layout/header";
+@import "./layout/main";

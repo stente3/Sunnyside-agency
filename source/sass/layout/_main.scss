@@ -1,0 +1,75 @@
+.idea{
+    width: 100%;
+}
+.idea__image{
+    width: 100%;
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.idea__container{
+    padding: 15% 4%;
+    @include fraunces(600);
+}
+.idea__background{
+    padding-top: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.idea--transform{
+    background-image: url(/public/assets/img/mobile/image-transform.jpg); 
+}
+.idea--stand{
+    background-image: url(/public/assets/img/mobile/image-stand-out.jpg);
+}
+.idea--graphic{
+    background-image: url(/public/assets/img/mobile/image-graphic-design.jpg);
+    .idea__header, .idea__paragraph{
+        color: $Dark-desaturated-cyan;
+    }
+}
+.idea--photography{
+    background-image: url(/public/assets/img/mobile/image-photography.jpg);
+    .idea__header, .idea__paragraph{
+        color: $Dark-blue;
+    }
+}
+.idea__header{
+    text-align: center;
+}
+.idea__paragraph{
+    @include barlow;
+    color: $Grayish-blue;
+    text-align: center;
+}
+.link__container{
+    position: relative;
+    margin: 2.7rem auto 4.5rem auto;
+    .idea__link{
+        cursor: pointer;
+        text-transform: uppercase;
+        width: max-content;
+        @include center-absolute;
+        z-index: 1;
+    }
+    span{
+        @include center-absolute;
+        width: 12rem;
+        height: .7rem;
+        top: 15px;
+        border-radius: 1rem;
+    }
+    .link--yellow{
+        background-color: #fad40040;
+    }
+    .link--yellow:hover{
+        background-color: $Yellow;
+    }
+    .link--red{
+        background-color: #fe786740;
+    }
+    .link--red:hover{
+        background-color: $Soft-red;
+    }
+}
