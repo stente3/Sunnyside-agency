@@ -5,8 +5,13 @@ html{
 } 
 body{
     font-size:16px; /* 1rem = 10px */ 
+    line-height: 2.8rem;
 } 
  /* model box */ 
 *,*:before,*:after{ 
     box-sizing:inherit;
+}
+/* Paragraphs */
+p{
+    font-size: 1.8rem;
 }

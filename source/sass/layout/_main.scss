@@ -1,21 +1,22 @@
+/* Main ideas */
 .idea{
     width: 100%;
 }
 .idea__image{
-    width: 100%;
-    height: 100vw;
+    background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
+    height: 100vw;
+    width: 100%;
 }
 .idea__container{
     padding: 15% 4%;
     @include fraunces(600);
 }
 .idea__background{
-    padding-top: 75%;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 75%;
 }
 .idea--transform{
     background-image: url(/public/assets/img/mobile/image-transform.jpg); 
@@ -39,26 +40,26 @@
     text-align: center;
 }
 .idea__paragraph{
-    @include barlow;
     color: $Grayish-blue;
     text-align: center;
+    @include barlow;
 }
 .link__container{
     position: relative;
     margin: 2.7rem auto 4.5rem auto;
     .idea__link{
-        cursor: pointer;
         text-transform: uppercase;
-        width: max-content;
         @include center-absolute;
+        width: max-content;
+        cursor: pointer;
         z-index: 1;
     }
     span{
         @include center-absolute;
-        width: 12rem;
-        height: .7rem;
-        top: 15px;
         border-radius: 1rem;
+        height: .7rem;
+        width: 12rem;
+        top: 21px;
     }
     .link--yellow{
         background-color: #fad40040;
@@ -71,5 +72,40 @@
     }
     .link--red:hover{
         background-color: $Soft-red;
+    }
+}
+/* Testimonials */
+.testimonials{
+    text-align: center;
+    margin: 3rem auto;
+    width: 95%;
+    @include barlow;
+    .testimonials__header{
+        color: $Dark-grayish-blue;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        @include fraunces(600);
+        text-align: center;
+    }
+}
+.testimonials__client{
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    display: flex;
+    img{
+        border-radius: 50%;
+        width: 11rem;
+    }
+    .client__paragraph{
+        color: $Very-dark-desaturated-blue;
+    }
+    .data__name{
+        @include fraunces(600);
+        margin: 0 auto;
+    }
+    .data__ocupation{
+        color: $Very-dark-grayish-blue;
+        margin: 1rem;
     }
 }
