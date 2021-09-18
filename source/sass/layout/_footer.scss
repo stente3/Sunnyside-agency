@@ -1,0 +1,36 @@
+.footer{
+    background-color: $Dark-moderate-cyan;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    height: 30rem;
+    .footer__logo{
+        width: 14rem;
+    }
+}
+.container__footer{
+    justify-content: space-between;
+    margin: 4rem 7rem 7rem 7rem;
+    display: flex;
+    width: 75%;
+    a{
+        color: #4f9182;
+        text-decoration: none;
+        font-size: 1.65rem;
+        @include barlow;
+    }
+    a:hover{
+        color: $White;
+    }
+}
+.social__media{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 14rem;
+    svg{
+        width: 2rem;
+        cursor: pointer;
+    }
+}
