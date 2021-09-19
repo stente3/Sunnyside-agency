@@ -4,19 +4,19 @@
     width: 100%;
     height: 100vw;
     .milk{
-        background-image: url(/public/assets/img/mobile/image-gallery-milkbottles.jpg);
+        background-image: url(/public/assets/img/mobile/image-gallery-milkbottles.webp);
         @include secction-images;
     }
     .orange{
-        background-image: url(/public/assets/img/mobile/image-gallery-orange.jpg);
+        background-image: url(/public/assets/img/mobile/image-gallery-orange.webp);
         @include secction-images;
     }
     .cone{
-        background-image: url(/public/assets/img/mobile/image-gallery-cone.jpg);
+        background-image: url(/public/assets/img/mobile/image-gallery-cone.webp);
         @include secction-images;
     }
     .sugar{
-        background-image: url(/public/assets/img/mobile/image-gallery-sugar-cubes.jpg);
+        background-image: url(/public/assets/img/mobile/image-gallery-sugar-cubes.webp);
         @include secction-images;
     }
 }

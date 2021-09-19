@@ -1,5 +1,5 @@
 .hero{
-    background-image: url(/public/assets/img/mobile/image-header.jpg);
+    background-image: url(/public/assets/img/mobile/image-header.webp);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: bottom;
@@ -43,7 +43,7 @@
 }
 @media (min-width: 400px) { 
     .hero{
-        background-image: url(/public/assets/img/desktop/image-header.jpg);
+        background-image: url(/public/assets/img/desktop/image-header.webp);
         h1 span{
             display: inline;
         }

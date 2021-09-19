@@ -19,19 +19,19 @@
     padding-top: 75%;
 }
 .idea--transform{
-    background-image: url(/public/assets/img/mobile/image-transform.jpg); 
+    background-image: url(/public/assets/img/mobile/image-transform.webp); 
 }
 .idea--stand{
-    background-image: url(/public/assets/img/mobile/image-stand-out.jpg);
+    background-image: url(/public/assets/img/mobile/image-stand-out.webp);
 }
 .idea--graphic{
-    background-image: url(/public/assets/img/mobile/image-graphic-design.jpg);
+    background-image: url(/public/assets/img/mobile/image-graphic-design.webp);
     .idea__header, .idea__paragraph{
         color: $Dark-desaturated-cyan;
     }
 }
 .idea--photography{
-    background-image: url(/public/assets/img/mobile/image-photography.jpg);
+    background-image: url(/public/assets/img/mobile/image-photography.webp);
     .idea__header, .idea__paragraph{
         color: $Dark-blue;
     }
