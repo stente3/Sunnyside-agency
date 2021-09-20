@@ -59,20 +59,20 @@
         border-radius: 1rem;
         height: .7rem;
         width: 13rem;
-        top: 21px;
+        bottom: -4rem;
     }
-    .link--yellow{
-        background-color: #fad40040;
-    }
-    .link--yellow:hover{
+    .link__active--yellow{
         background-color: $Yellow;
     }
-    .link--red{
-        background-color: #fe786740;
-    }
-    .link--red:hover{
+    .link__active--red{
         background-color: $Soft-red;
     }
+}
+.link--yellow{
+    background-color: #fad40040;
+}
+.link--red{
+    background-color: #fe786740;
 }
 /* Testimonials */
 .testimonials{

@@ -28,9 +28,12 @@
     justify-content: space-evenly;
     align-items: center;
     display: flex;
-    width: 14rem;
+    width: 35%;
     svg{
-        width: 2rem;
+        width: fit-content;
         cursor: pointer;
     }
+}
+.fill{
+    fill: $White;
 }
