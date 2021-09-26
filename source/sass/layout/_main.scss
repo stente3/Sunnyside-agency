@@ -155,3 +155,15 @@
         margin: 1rem;
     }
 }
+@media (min-width: $desktop) { 
+    .testimonials{
+        margin: 15rem auto;
+    }
+    .testimonials__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
