@@ -1,5 +1,7 @@
 .footer{
     background-color: $Dark-moderate-cyan;
+}
+.footer__container{
     flex-direction: column;
     justify-content:center;
     align-items: center;
@@ -8,8 +10,14 @@
     .footer__logo{
         width: 14rem;
     }
+}   
+@media (min-width: $desktop) { 
+    .footer__container{
+        width: 40%;
+        margin: 0 auto;
+    }
 }
-.container__footer{
+.footer__link{
     justify-content: space-between;
     margin: 4rem 7rem 7rem 7rem;
     display: flex;

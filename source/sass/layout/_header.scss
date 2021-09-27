@@ -18,6 +18,7 @@
         @include fraunces($black);
         text-transform: uppercase;
         span{
+            margin-top: .8vh;
             display: block;
         }
     }
