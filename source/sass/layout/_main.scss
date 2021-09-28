@@ -19,19 +19,19 @@
     padding-top: 75%;
 }
 .idea--transform{
-    background-image: url(/public/assets/img/mobile/image-transform.webp); 
+    background-image: url(../assets/img/mobile/image-transform.webp); 
 }
 .idea--stand{
-    background-image: url(/public/assets/img/mobile/image-stand-out.webp);
+    background-image: url(../assets/img/mobile/image-stand-out.webp);
 }
 .idea--graphic{
-    background-image: url(/public/assets/img/mobile/image-graphic-design.webp);
+    background-image: url(../assets/img/mobile/image-graphic-design.webp);
     .idea__header, .idea__paragraph{
         color: $Dark-desaturated-cyan;
     }
 }
 .idea--photography{
-    background-image: url(/public/assets/img/mobile/image-photography.webp);
+    background-image: url(../assets/img/mobile/image-photography.webp);
     .idea__header, .idea__paragraph{
         color: $Dark-blue;
     }
@@ -108,17 +108,17 @@
         }        
     }
     .idea--transform{
-        background-image: url(/public/assets/img/desktop/image-transform.webp); 
+        background-image: url(../assets/img/desktop/image-transform.webp); 
         grid-column: 2 / 3;
     }
     .idea--stand{
-        background-image: url(/public/assets/img/desktop/image-stand-out.webp);
+        background-image: url(../assets/img/desktop/image-stand-out.webp);
     }
     .idea--graphic{
-        background-image: url(/public/assets/img/desktop/image-graphic-design.webp);
+        background-image: url(../assets/img/desktop/image-graphic-design.webp);
     }
     .idea--photography{
-        background-image: url(/public/assets/img/desktop/image-photography.webp);
+        background-image: url(../assets/img/desktop/image-photography.webp);
     }
 }
 /* Desktop design */

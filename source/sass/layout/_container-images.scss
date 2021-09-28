@@ -7,16 +7,16 @@
         @include secction-images;
     }
     .milk{
-        background-image: url(/public/assets/img/mobile/image-gallery-milkbottles.webp);
+        background-image: url(../assets/img/mobile/image-gallery-milkbottles.webp);
     }
     .orange{
-        background-image: url(/public/assets/img/mobile/image-gallery-orange.webp);
+        background-image: url(../assets/img/mobile/image-gallery-orange.webp);
     }
     .cone{
-        background-image: url(/public/assets/img/mobile/image-gallery-cone.webp);
+        background-image: url(../assets/img/mobile/image-gallery-cone.webp);
     }
     .sugar{
-        background-image: url(/public/assets/img/mobile/image-gallery-sugar-cubes.webp);
+        background-image: url(../assets/img/mobile/image-gallery-sugar-cubes.webp);
     }
 }
 /* Tablet design */
@@ -29,16 +29,16 @@
             height: 25vw;
         }
         .milk{
-            background-image: url(/public/assets/img/desktop/image-gallery-milkbottles.webp);
+            background-image: url(../assets/img/desktop/image-gallery-milkbottles.webp);
         }
         .orange{
-            background-image: url(/public/assets/img/desktop/image-gallery-orange.webp);
+            background-image: url(../assets/img/desktop/image-gallery-orange.webp);
         }
         .cone{
-            background-image: url(/public/assets/img/desktop/image-gallery-cone.webp);
+            background-image: url(../assets/img/desktop/image-gallery-cone.webp);
         }
         .sugar{
-        background-image: url(/public/assets/img/desktop/image-gallery-sugarcubes.webp);
+        background-image: url(../assets/img/desktop/image-gallery-sugarcubes.webp);
     }
 }
 }
