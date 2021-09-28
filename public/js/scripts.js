@@ -1,6 +1,8 @@
 //Variables
 let svgSocialMedia = document.querySelectorAll(".social__media svg");
 let ideaLink = document.querySelectorAll(".idea__link");
+let containerLinks = document.querySelector(".container__links");
+let hamburger = document.querySelector(".hamburger");
 
 //Funtions
 ideaLink.forEach(element =>{
@@ -24,3 +26,11 @@ svgSocialMedia.forEach(element => {
         element.firstChild.classList.remove("fill");
     })
 });
+
+hamburger.addEventListener("click", () =>{
+    if(containerLinks.classList.contains("menu--mobile")){
+        containerLinks.classList.remove("menu--mobile");
+    } else{
+        containerLinks.classList.add("menu--mobile");
+    }
+})

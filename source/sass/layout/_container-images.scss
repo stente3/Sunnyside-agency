@@ -19,6 +19,7 @@
         background-image: url(/public/assets/img/mobile/image-gallery-sugar-cubes.webp);
     }
 }
+/* Desktop design */
 @media (min-width: $desktop) { 
     .container__images{
         grid-template-columns: repeat(4, 1fr);

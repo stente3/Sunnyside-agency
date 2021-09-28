@@ -11,12 +11,6 @@
         width: 14rem;
     }
 }   
-@media (min-width: $desktop) { 
-    .footer__container{
-        width: 40%;
-        margin: 0 auto;
-    }
-}
 .footer__link{
     justify-content: space-between;
     margin: 4rem 7rem 7rem 7rem;
@@ -44,4 +38,11 @@
 }
 .fill{
     fill: $White;
+}
+/* Desktop design */
+@media (min-width: $desktop) { 
+    .footer__container{
+        width: 40%;
+        margin: 0 auto;
+    }
 }

@@ -74,6 +74,7 @@
 .link--red{
     background-color: #fe786740;
 }
+/* Desktop design */
 @media (min-width: $desktop) { 
     .main__ideas{
         display: grid;
@@ -155,6 +156,7 @@
         margin: 1rem;
     }
 }
+/* Desktop design */
 @media (min-width: $desktop) { 
     .testimonials{
         margin: 15rem auto;
