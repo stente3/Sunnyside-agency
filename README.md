@@ -1,4 +1,3 @@
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -15,13 +14,15 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 ![alt text](https://github.com/stente3/Sunnyside-agency/blob/main/source/designs/main.png)
@@ -41,7 +42,7 @@ This is a challenge taken from the "Frontend Mentor" website, it was made with t
 * [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 * [JavaScript Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-<!-- GETTING STARTED -->
+
 ## Getting Started
 This is the structure of the folders.
 
@@ -76,22 +77,36 @@ The sass files that are inside the "base" folder are the general configuration o
    git clone https://github.com/stente3/Sunnyside-agency.git
    ```
 
-<!-- LICENSE -->
+## Usage
+The only thing you need to start modifying the project is to have a Sass compiler and the modified Css file must be sent to the app.css file found in the following location <br>
+The-project / <br>
+├── public / <br>
+│....└──css / <br>
+
+And a code editor to be able to modify any other file
+
+## Contributing
+
+I thank the platform "Frontend Mentor" for helping me improve my Frontend skills with all the challenges they offer <br>
+You can find this and many more front end challenges by visiting their website https://www.frontendmentor.io/
+
+
 ## License
 
 Distributed under the MIT License. See [`LICENSE`](https://github.com/stente3/Sunnyside-agency/blob/main/LICENSE) for more information.
 
-<!-- CONTACT -->
+
 ## Contact
 
 Camilo Andrés Fuentes Morales - mikarinkitamo1346@gmail.com
 
 Project Link: [https://frontend-sunnyside-agency.netlify.app/](https://frontend-sunnyside-agency.netlify.app/)
 
-<!-- ACKNOWLEDGEMENTS -->
+
 ## Acknowledgments
 
 * [Frontend Mentor](https://www.frontendmentor.io/)
 * [Netlify](https://www.netlify.com/)
 * [Fonts Google](https://fonts.google.com/)
 * [Online-convert](https://imagen.online-convert.com/es/convertir-a-webp)
+* [Othneildrew](https://github.com/othneildrew/Best-README-Template)
