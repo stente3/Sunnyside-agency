@@ -90,13 +90,13 @@
     top: -3rem;
     right: 0;
 }
-@media (min-width: $tablet) { 
+@include tablet-width{
     .menu--mobile{
         width: 50%;
     }
 }
 /* Desktop design */
-@media (min-width: $desktop) { 
+@include desktop-width{
     .hero{
         height: 100vh;
         h1{

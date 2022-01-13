@@ -75,7 +75,7 @@
     background-color: #fe786740;
 }
 /* Tablet design */
-@media (min-width: $tablet) { 
+@include tablet-width{
     .main__ideas{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -122,7 +122,7 @@
     }
 }
 /* Desktop design */
-@media (min-width: $desktop) { 
+@include desktop-width{
     .idea__container{
         padding: 10%;
     }
@@ -163,7 +163,7 @@
     }
 }
 /* Tablet design */
-@media (min-width: $tablet) { 
+@include tablet-width{
     .testimonials{
         margin: 5vh auto;
     }
@@ -176,7 +176,7 @@
     }
 }
 /* Desktop design */
-@media (min-width: $desktop) { 
+@include desktop-width{
     .testimonials{
         margin: 10vh auto;
     }

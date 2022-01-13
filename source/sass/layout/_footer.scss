@@ -40,7 +40,7 @@
     fill: $White;
 }
 /* Desktop design */
-@media (min-width: $desktop) { 
+@include desktop-width{
     .footer__container{
         width: 40%;
         margin: 0 auto;

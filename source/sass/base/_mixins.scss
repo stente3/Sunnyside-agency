@@ -14,9 +14,19 @@
     left: 0;
     top: 0;
 }
-@mixin secction-images{
+@mixin section-images{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50vw 100%;
     margin: 0;
+}
+@mixin tablet-width{
+    @media (min-width: $tablet) { 
+        @content;
+    }
+}
+@mixin desktop-width{
+    @media (min-width: $desktop) { 
+        @content;       
+    }
 }
