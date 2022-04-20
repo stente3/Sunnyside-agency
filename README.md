@@ -109,4 +109,6 @@ Project Link: [https://frontend-sunnyside-agency.netlify.app/](https://frontend-
 * [Netlify](https://www.netlify.com/)
 * [Fonts Google](https://fonts.google.com/)
 * [Online-convert](https://imagen.online-convert.com/es/convertir-a-webp)
+* [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [Othneildrew](https://github.com/othneildrew/Best-README-Template)
+
